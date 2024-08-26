@@ -43,14 +43,7 @@ __Restore Process__ ---> Use Ctrl+b + ctrl+r to restore saved session
 
 __at First you should click *ctrl+b* and then use other to move the mode__
 
- - % ( shift + 5)            -> divide horizontally
- - "                         -> divide vertically
- - z                         -> zoom to one part
- - up,down,right,left        -> move between windows
- - ctrl + up,down,right,left -> resize windows
-
-
-| #Row | #Shortkey    | #Description    |
+| Row | Shortkey    | Description    |
 | :---:   | :---: | :---: |
 | 1 | % ( shift + 5)   | divide vertically   |
 | 2 |"   | divide horizontally   |

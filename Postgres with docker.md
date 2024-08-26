@@ -37,7 +37,9 @@ sudo docker exec -it postgresql-test bash
 ```
 
 __Point__ : -it is for terminal of docker that let you send and recieve from terminal
+
 __Point__ : bash is the app that you want to execute from container
+
 __Point__ : postgresql-test is the name of container
 
 

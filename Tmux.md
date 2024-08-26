@@ -35,8 +35,9 @@ run '~/.tmux/plugins/tpm/tpm'
 
 4- Open tmux -> run Tmux
 
-Point1 --- Create your own session and the Ctrl+b + ctrl+s to save session
-Point2 --- Use Ctrl+b + ctrl+r to restore saved session
+Save Process    --- Create your own session and the Ctrl+b + ctrl+s to save session
+
+Restore Process --- Use Ctrl+b + ctrl+r to restore saved session
 
 
 

@@ -21,8 +21,8 @@ sudo docker images
 sudo docker run --name postgresql-test -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432  -v /data:/var/lib/postgresql/data -d ubuntu/postgres
 ```
 
-| Raw | tag  |Parameter | Description    |
-| :-----: | :---: | :---: |
+| Raw | tag  |  Parameter | Description    |
+| :-----: | :---: | :---: |:---: |
 | 1 | --name|   postgresql-test | set name to the container for use in future against id-container   |
 | 2 | -e POSTGRES_USER|postgres   |  username of database you want to login  |
 | 3 | -e POSTGRES_PASSWORD | postgres   | password of database you want to login   |

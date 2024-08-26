@@ -50,9 +50,13 @@ __at First you should click *ctrl+b* and then use other to move the mode__
  - ctrl + up,down,right,left -> resize windows
 
 
-| Attempt | #1    | #2    |
+| #Row | #Shortkey    | #Description    |
 | :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
+| 1 | % ( shift + 5)   | divide vertically   |
+| 2 |"   | divide horizontally   |
+| 3 |z   | oom to one part |
+| 4 | up,down,right,left  | move between windows   |
+| 5 | ctrl + up,down,right,left   | resize windows   |
 
 
 

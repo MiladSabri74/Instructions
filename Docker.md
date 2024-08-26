@@ -32,7 +32,7 @@ sudo apt-get update
 ```
 ## Usefull docker commands
  
- __before each command type *sudo docker* and then command__
+ __before each command type *"sudo docker"* and then command__
 
 | Raw |command   | Description    |
 | :-----: | :---: | :---: |

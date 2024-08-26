@@ -1,6 +1,6 @@
 # Instructions
 
-The goal of this repo is collected instructions of install or usage of apps
+The purpose of this repository is to collect instructions for installing or using applications
 
 ## List of Markdown Files
 

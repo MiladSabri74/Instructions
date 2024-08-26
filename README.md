@@ -8,4 +8,4 @@ The purpose of this repository is to collect instructions for installing or usin
 | :-----: | :---: | :---: |
 | 1 | Tmux| how to install and use better Tmux   |
 | 2 | Docker| how to install and use docker   |
-| 3 | Postgres in Docker| how to use postgres in docker   |
+| 3 | Postgres with docker| how to use postgres in docker   |

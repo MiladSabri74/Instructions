@@ -29,3 +29,23 @@ sudo docker run --name postgresql-test -e POSTGRES_USER=postgres -e POSTGRES_PAS
 | 4 | -p | 5432:5432   | map docker port to local os port / first for docker and second for OS |
 | 5 | -v | /data:/var/lib/postgresql/data  |set volume first path is in docker and second is in local server to store data    |
 | 5 | -d |  ---  |  run on background  |
+
+4- (Optional) for use commandline of psql after run container use this
+
+```
+sudo docker exec -it postgresql-test bash
+```
+
+__Point__ : -it is for terminal of docker that let you send and recieve from terminal
+__Point__ : bash is the app that you want to execute from container
+__Point__ : postgresql-test is the name of container
+
+
+5- (Optional) you can start or stop current container with this commands
+
+```
+sudo docker start postgresql-test
+```
+```
+sudo docker stop postgresql-test
+```

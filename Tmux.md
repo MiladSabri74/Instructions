@@ -4,17 +4,23 @@
 
 1- Update repos
 
-```sudo apt update```
+```
+sudo apt update
+```
 
 2- Install Tmux
 
-```sudo apt install tmux```
+```
+sudo apt install tmux
+```
 
 ## Save and Restore in Tmux
 
 1- clone this repo
 
-```git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm```
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 
 2- Open your ~/.tmux.conf and add this text and then save the file
 
@@ -31,7 +37,9 @@ run '~/.tmux/plugins/tpm/tpm'
 
 3- source the config file
 
-```tmux source ~/.tmux.conf```
+```
+tmux source ~/.tmux.conf
+```
 
 4- Open tmux -> run Tmux and then Ctrl+b + I(shift + i)
 

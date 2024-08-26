@@ -33,12 +33,26 @@ run '~/.tmux/plugins/tpm/tpm'
 
 ```tmux source ~/.tmux.conf```
 
-4- Open tmux -> run Tmux
+4- Open tmux -> run Tmux and then Ctrl+b + I(shift + i)
 
-Save Process    --- Create your own session and the Ctrl+b + ctrl+s to save session
+__Save Process__    ---> Create your own session and the Ctrl+b + ctrl+s to save session
 
-Restore Process --- Use Ctrl+b + ctrl+r to restore saved session
+__Restore Process__ ---> Use Ctrl+b + ctrl+r to restore saved session
 
+## Shortkeys
+
+__at First you should click *ctrl+b* and then use other to move the mode__
+
+ - % ( shift + 5)            -> divide horizontally
+ - "                         -> divide vertically
+ - z                         -> zoom to one part
+ - up,down,right,left        -> move between windows
+ - ctrl + up,down,right,left -> resize windows
+
+
+| Attempt | #1    | #2    |
+| :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
 
 
 

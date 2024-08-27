@@ -58,6 +58,7 @@ __at First you should click *ctrl+b* and then use other to move the mode__
 | 3 |z   | zoom to one part |
 | 4 | up,down,right,left  | move between windows   |
 | 5 | ctrl + up,down,right,left   | resize windows   |
+| 6 |x   | close current pane  |
 
 
 

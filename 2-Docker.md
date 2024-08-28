@@ -34,7 +34,7 @@ sudo apt-get update
  
  __before each command type *"sudo docker"* and then command__
 
-| Raw |command   | Description    |
+| Row |command   | Description    |
 | :-----: | :---: | :---: |
 | 1 | ps| list running conatiners   |
 | 2 | ps -a|  list all conatiners |

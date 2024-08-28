@@ -51,3 +51,37 @@ sudo docker start postgresql-test
 ```
 sudo docker stop postgresql-test
 ```
+6- (Optional) I use this script to start postgres container ( in this script at first I stop service of postgre in local)
+
+```
+#!/bin/bash
+
+# Stop PostgreSQL service on the host
+echo "Stopping PostgreSQL service on the host..."
+sudo systemctl stop postgresql.service
+
+# Add a delay before starting the Docker container (e.g., 5 seconds)
+echo "Waiting for 5 seconds before starting the Docker container..."
+sleep 5
+
+# Check if the PostgreSQL service was stopped successfully
+if systemctl is-active --quiet postgresql.service; then
+    echo "Failed to stop PostgreSQL service on the host."
+    exit 1
+else
+    echo "PostgreSQL service stopped successfully."
+fi
+
+# Start the PostgreSQL Docker container
+echo "Starting PostgreSQL Docker container..."
+sudo docker start postgres-test
+
+# Check if the Docker container started successfully
+if [ $? -eq 0 ]; then
+    echo "PostgreSQL Docker container started successfully."
+else
+    echo "Failed to start PostgreSQL Docker container."
+    exit 1
+fi
+
+```

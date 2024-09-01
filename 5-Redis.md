@@ -6,7 +6,7 @@
 ```
 cd /tmp
 ```
-2- go to this link <http://download.redis.io/releases/> and select your version then for example V7.4.0
+2- go to this link <http://download.redis.io/releases/> and select your version then download file (for example V7.4.0)
 ```
 wget http://download.redis.io/releases/redis-7.4.0.tar.gz 
 ```
